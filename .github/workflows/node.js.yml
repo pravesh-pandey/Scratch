@@ -28,4 +28,4 @@ jobs:
         cache: 'npm'
     - run: npm ci
     
-    - run: sudo pm2 restart frontend
+    - run: pm2 restart frontendroot
